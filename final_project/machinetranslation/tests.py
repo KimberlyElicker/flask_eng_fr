@@ -1,3 +1,8 @@
+import unittest
+
+from machinetranslation import english_to_french
+from machinetranslation import french_to_english
+
 class TestMachineTranslation(unittest.TestCase):
     def test_english_to_french(self):
         self.assertNotEqual(english_to_french("Hello"), "Hello")
