@@ -1,9 +1,10 @@
 import os
+import unittest
 from ibm_watson import LanguageTranslatorV3
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 
 from dotenv import load_dotenv
-import unittest
+
 
 from translator import english_to_french
 from translator import french_to_english
