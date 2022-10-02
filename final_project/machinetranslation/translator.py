@@ -14,7 +14,6 @@ url = os.environ['url']
 
 authenticator = IAMAuthenticator('{apikey}')
 language_translator = LanguageTranslatorV3(
-    version='{version}',
     authenticator=authenticator
 )
 
